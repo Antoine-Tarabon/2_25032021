@@ -1,3 +1,29 @@
-h1 {
-    color: red;
+/* police personnalisé */
+
+/* élements principaux de la page */
+#bloc_page
+{
+    width: auto;
+    margin: auto;
 }
+/* header,nav */
+.navigation, ul
+{
+    list-style-type: none;
+    display: flex;
+}
+.navigation, ul
+{
+    margin-right: 13%;
+}
+/* nav */
+
+/* div filtre */
+
+/* section (article) */
+
+/* setion(aside) */
+
+/* section activité */
+
+/* footer */
