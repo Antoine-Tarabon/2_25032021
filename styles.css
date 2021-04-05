@@ -1,26 +1,68 @@
 /* police personnalisé */
-
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-Regular.ttf') format('truetype')
+}
 /* élements principaux de la page */
+body 
+{
+    font-family: Raleway, serif;
+}
 #bloc_page
 {
-    width: auto;
-    margin: auto;
+    margin: 3em;
 }
 /* header,nav */
-.navigation, ul
+header
+{
+    display: flex;
+    justify-content:space-between;
+}
+#logo
+{
+    display: flex;
+    height: 70px;
+    width: 70px;
+}
+
+.navigation ul 
 {
     list-style-type: none;
     display: flex;
 }
-.navigation, ul
+.navigation li
 {
-    margin-right: 13%;
+    padding-right: 30px;
+    padding-left: 30px;
 }
-/* nav */
+.navigation a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 61px;
+
+}
+.inscription a
+{
+    color: #0065FC;
+}
+
+/* section search */
+.button_search
+ {
+    display: flex;
+ }
 
 /* div filtre */
 
 /* section (article) */
+
 
 /* setion(aside) */
 
