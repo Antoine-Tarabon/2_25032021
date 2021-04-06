@@ -7,10 +7,12 @@
 body 
 {
     font-family: Raleway, serif;
+    margin: 0;
 }
 #bloc_page
 {
-    margin: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
 }
 /* header,nav */
 header
@@ -23,32 +25,36 @@ header
     display: flex;
     height: 70px;
     width: 70px;
+    padding-top: 25px;
 }
 
 .navigation ul 
 {
     list-style-type: none;
     display: flex;
+    margin-top: 0;
 }
 .navigation li
 {
+    padding-top: 50px;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+.navigation li:hover{
+    border-top: 3px solid #0065FC;
 }
 
 .navigation a
 {
     text-decoration: none;
     color: black;
- 
+
 }
 
 .navigation a:hover
 {
     color: #0065FC;
-    border-top: 3px solid #0065FC;
-    padding-top: 61px;
-
 }
 .inscription a
 {
@@ -82,12 +88,12 @@ header
     height: 3rem;
     border: 2px solid #f2f2f2;
     padding-left: 1rem;
-    
 }
 input::placeholder
 {
     font-weight: bold;
     color: black;
+    font-size: large;
 }
 
  .rechercher
@@ -100,6 +106,7 @@ input::placeholder
   border-radius: 0 10px 10px 0;
   padding: 0 1rem;
   cursor: pointer;
+  font-size: large;
  }
 
 
