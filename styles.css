@@ -198,7 +198,7 @@ input::placeholder
 .hebergement
 {
     background-color: #f2f2f2;
-    width: 67%;
+    width: 66%;
     border-radius: 15px;
     padding-bottom: 2rem;
 }
@@ -273,8 +273,38 @@ input::placeholder
 /* setion(aside) */
 .images_populaires
 {
-    width: 10rem;
-    height: 10rem;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+    float: left;
+
+}
+aside
+{
+    width: 33%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+.populaire1
+{
+    margin: 10px 0 25px 0;
+    width: 29rem;
+    height: 11rem;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.35em;
+    box-shadow: 4px 4px 20px rgb(201, 201, 201);
+}
+.populaires
+{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.info_populaires
+{
+    display: inline-block;
 }
 
 /* section activité */
