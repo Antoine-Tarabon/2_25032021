@@ -17,7 +17,7 @@ body
 }
 #bloc_page
 {
-   margin: 0 3rem;
+    margin: 0 3rem;
 }
 /* header,nav */
 header
@@ -140,6 +140,17 @@ input::placeholder
     border-radius: 2rem;
     display: inline-block;
 }
+.element a
+{
+    text-decoration: none;
+    color: black;
+}
+.element:hover
+{ 
+    background-color: #f1f7ff;
+  transform: scale(1.05);
+  transition: 0.1s;
+}
 
 .hebergement_icone
 {
@@ -190,7 +201,10 @@ input::placeholder
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+#hébergements h4
+{
+    font-size: 1.2rem;
+}
 .hebergement, aside
 {
     text-align: justify;
@@ -204,15 +218,14 @@ input::placeholder
 }
 .hebergement h2
 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin: 2.5rem 0 1rem 4rem;
 }
 
 .all_hebergements
 {
     display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
+    flex-wrap: wrap; 
     justify-content: space-evenly;
 
 }
@@ -226,9 +239,12 @@ input::placeholder
     border-radius: 20px;
     padding: 0.35em;
     box-shadow: 4px 4px 20px rgb(201, 201, 201);
-
 }
-
+.hebergement1:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
 .images_hebergements
 {
     width: 100%;
@@ -271,9 +287,10 @@ input::placeholder
 }
 
 /* setion(aside) */
+
 .images_populaires
 {
-    width: 50%;
+    width: 35%;
     height: 100%;
     border-radius: 15px 0 0 15px;
     object-fit: cover;
@@ -286,15 +303,38 @@ aside
     background-color: #f2f2f2;
     border-radius: 15px;
 }
+aside h2
+{
+    font-size: 1.4rem;
+}
+
+.titre_populaires
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem 4rem 1rem 4rem; 
+}
+.chartline
+{
+    font-size: 1.4rem;
+}
+
 .populaire1
 {
+
     margin: 10px 0 25px 0;
-    width: 29rem;
+    width: 26vw;
     height: 11rem;
     background-color: white;
     border-radius: 20px;
     padding: 0.35em;
     box-shadow: 4px 4px 20px rgb(201, 201, 201);
+}
+.populaire1:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
 }
 .populaires
 {
@@ -306,7 +346,249 @@ aside
 {
     display: inline-block;
 }
+.populaire1 a
+{
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+.populaires h4
+{
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+.populaires p
+{
+    margin: 1rem 0 1rem 1rem;
+}
+.populaires .etoiles .active
+{
+    color: #0065FC;
+}
+.populaires .etoiles
+{
+    margin: 1rem 0 1rem 1rem;
+    color: #f2f2f2;
+}
 
 /* section activité */
+#activités
+{
+    padding-bottom: 3rem;
+}
+
+#activités h2
+{
+    margin: 2rem 0 1rem 0;
+    font-size: 1.4rem;
+}
+
+.activite
+{
+    display: flex;
+    justify-content: space-between;
+    height: 31.5vw;
+}
+.activité_a
+{
+    display: flex;
+}
+
+.activité1
+{
+    width: 21vw;
+}
+.activité1 img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 86%;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+.activité1:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.activité_b
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.activité2
+{
+    width:21vw;
+    height: 50%;
+}
+.activité2 img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 73%;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+
+.activité2:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.activité3
+{
+    width: 21vw;
+    height: 40%;
+}
+
+.activité3:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.activité3 img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 67%;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+
+.activité_c
+{
+    display: flex;
+}
+
+.activité4
+{
+    width:21vw;
+}
+
+.activité4 img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 86%;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+
+.activité4:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.activité_d
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activité5
+{
+    width:21vw ;
+    height: 40%;
+}
+
+.activité5 img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 67%;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+
+.activité5:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.activité6
+{
+    width: 21vw;
+    height: 50%;
+}
+
+.activité6:hover
+{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+.activité6 img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 73%;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+
+.activite figure
+{
+    box-shadow: 4px 4px 20px rgb(201, 201, 201);
+    border-radius: 15px;
+}
+
+.activite figcaption
+{
+    margin: 0.5em 0 0 1.5em;
+    font-size: 1.2vmax;
+    font-weight: bold;
+}
 
 /* footer */
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer ul
+{
+    list-style-type: none;
+    
+}
+
+footer h5
+{
+    margin-bottom: 1.2rem;
+    font-size: large;
+}
+
+footer li 
+{
+    margin-bottom: 1rem;
+
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+.a_propos
+{
+    margin-left: 3rem ;
+    margin-right: 20vw;
+    
+}
+
+.nos_hebergements
+{
+    margin-right: 20vw;
+}
