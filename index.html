@@ -6,7 +6,9 @@
             content="width=device-width, initial-scale=1, minimum-scale=1"
         />
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" href="./styles/tablet.css" media="screen and (max-width: 1000px)"/>
+        <link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width: 768px)"/>
         <link rel="stylesheet" href="./fonts/Raleway-Regular.ttf" />
         <link href="styles/font-awesome.css" rel="stylesheet" />
         <title>Reservia</title>
@@ -41,7 +43,7 @@
                         class="search_input"
                         type="search"
                         placeholder="Tapez votre destination"
-                        value="Marseille,France"
+                        value="Marseille, France"
                     />
                     <button class="rechercher">Rechercher</button>
                 </div>
@@ -124,8 +126,8 @@
                                     />
                                     <h4>Hôtel du port</h4>
                                     <p>
-                                        Nuit à partir de<span class="prix"
-                                            >52€</span
+                                        Nuit à partir de 
+                                        <span class="prix" >52€</span
                                         >
                                     </p>
                                     <div class="etoiles">
@@ -242,8 +244,10 @@
                                         alt="Hôtel Le soleil du matin"
                                     />
                                     <div class="info_populaires">
-                                        <h4>Hôtel Le soleil du matin</h4>
-                                        <p>Nuit à partir de <span class="prix">128€</span></p>
+                                        <div class="infos">
+                                            <h4>Hôtel Le soleil du matin</h4>
+                                            <p>Nuit à partir de <span class="prix">128€</span></p>
+                                        </div>                                       
                                         <div class="etoiles">
                                             <i class="fas fa-star active"></i>
                                             <i class="fas fa-star active"></i>
@@ -262,10 +266,10 @@
                                         alt="Au coeur de l'eau Chambre d'hôtes"
                                     />
                                     <div class="info_populaires">
-                                        <h4>
-                                            Au coeur de l'eau Chambre d'hôtes
-                                        </h4>
-                                        <p>Nuit à partir de<span class="prix"> 71€</span></p>
+                                        <div class="infos">
+                                            <h4>Au coeur de l'eau Chambre d'hôtes</h4>
+                                            <p>Nuit à partir de<span class="prix"> 71€</span></p>
+                                        </div>
                                         <div class="etoiles">
                                             <i class="fas fa-star active"></i>
                                             <i class="fas fa-star active"></i>
@@ -284,8 +288,10 @@
                                         alt="Hôtel Tout bleu et Blanc"
                                     />
                                     <div class="info_populaires">
-                                        <h4>Hôtel Tout bleu et Blanc</h4>
-                                        <p>Nuit à partir de<span class="prix"> 68€</span></p>
+                                        <div class="infos">
+                                            <h4>Hôtel Tout bleu et Blanc</h4>
+                                            <p>Nuit à partir de<span class="prix"> 68€</span></p>
+                                        </div>                                      
                                         <div class="etoiles">
                                             <i class="fas fa-star active"></i>
                                             <i class="fas fa-star active"></i>
@@ -381,11 +387,10 @@
                 <div class="assistance">
                     <h5>Assistance</h5>
                     <ul>
-                        <li><a href="#">centre d'aide</a></li>
+                        <li><a href="#">Centre d'aide</a></li>
                         <li><a href="#">Nous contacter</a></li>
                     </ul>
                 </div>
-            </footer>
-        
+            </footer>  
     </body>
 </html>

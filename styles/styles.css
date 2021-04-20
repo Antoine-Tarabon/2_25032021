@@ -1,7 +1,8 @@
 /* police personnalisé */
+
 @font-face {
     font-family: 'Raleway';
-    src: url('./fonts/Raleway-Regular.ttf') format('truetype')
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype');
 }
 /* élements principaux de la page */
 *
@@ -37,11 +38,24 @@ header
 {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
 }
 .navigation li
 {
     padding: 50px;
     border: 2px solid transparent;
+}
+.navigation ul li:nth-child(1)
+{
+    order: 1;
+}
+.navigation ul li:nth-child(2)
+{
+    order: 2;
+}
+.navigation ul li:nth-child(3)
+{
+    order: 3;
 }
 
 .navigation li:hover{
@@ -130,6 +144,7 @@ input::placeholder
 {
     display: flex;
     align-items: center;
+
 }
 
 .element
@@ -138,6 +153,7 @@ input::placeholder
     padding-right: 1rem;
     border: 2px solid #f2f2f2;
     border-radius: 2rem;
+    border-left: none;
     display: inline-block;
 }
 .element a
@@ -158,7 +174,6 @@ input::placeholder
     background-color: #deebff;
     border-radius: 3rem;
     padding: 1rem;
-    margin-right: 1rem;
     color: #0065FC;
 }
 
@@ -172,6 +187,7 @@ input::placeholder
 {
     display: inline-block;
     font-weight: bold;
+    padding: 0 0.5rem;
 }
 
 .info 
@@ -201,6 +217,7 @@ input::placeholder
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 #hébergements h4
 {
     font-size: 1.2rem;
@@ -243,7 +260,7 @@ input::placeholder
 .hebergement1:hover
 {
     transform: scale(1.05);
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .images_hebergements
 {
@@ -259,7 +276,7 @@ input::placeholder
     color: black;
 }
 
-.hebergement h4, p, .etoiles
+.hebergement h4, .hebergement p, .etoiles
 {
     margin: 0.5rem 0 0.5rem 0.5rem;
 
@@ -344,7 +361,9 @@ aside h2
 }
 .info_populaires
 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .populaire1 a
 {
@@ -355,7 +374,7 @@ aside h2
 }
 .populaires h4
 {
-    margin: 0.5rem 0 0.5rem 1rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
 }
 .populaires p
 {
@@ -410,7 +429,7 @@ aside h2
 .activité1:hover
 {
     transform: scale(1.05);
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .activité_b
 {
@@ -438,7 +457,7 @@ aside h2
 .activité2:hover
 {
     transform: scale(1.05);
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .activité3
 {
@@ -449,7 +468,7 @@ aside h2
 .activité3:hover
 {
     transform: scale(1.05);
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .activité3 img
 {
@@ -484,7 +503,7 @@ aside h2
 .activité4:hover
 {
     transform: scale(1.05);
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .activité_d
@@ -513,7 +532,7 @@ aside h2
 .activité5:hover
 {
     transform: scale(1.05);
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .activité6
 {
@@ -524,7 +543,7 @@ aside h2
 .activité6:hover
 {
     transform: scale(1.05);
-    transition: 0.1s;
+    transition: 0.2s;
 }
 .activité6 img
 {
@@ -545,7 +564,7 @@ aside h2
 .activite figcaption
 {
     margin: 0.5em 0 0 1.5em;
-    font-size: 1.2vmax;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
@@ -591,4 +610,10 @@ footer a
 .nos_hebergements
 {
     margin-right: 20vw;
+}
+
+footer a:hover 
+{
+    color: #0065FC;
+    transition: 0.4s;
 }

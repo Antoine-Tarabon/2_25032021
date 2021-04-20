@@ -1,0 +1,107 @@
+#bloc_page
+{
+    margin: 0 0rem;
+}
+.navigation ul li:nth-child(1)
+{
+    order: 2;
+}
+.navigation ul li:nth-child(2)
+{
+    order: 3;
+}
+.navigation ul li:nth-child(3)
+{
+    order: 1;
+}
+
+#search
+{
+    margin: 0 1.6rem 0 1.6rem;
+}
+
+.info
+{
+    margin: 2rem 1.3rem;
+
+}
+
+#hébergements
+{
+    flex-direction: column-reverse;
+}
+
+aside
+{
+    width: 100%;
+    border-radius: unset;
+}
+
+.hebergement
+{
+    width: 100%;
+    border-radius: unset;
+    background-color: transparent;
+}
+
+.populaire1
+{
+    width: 79vw
+}
+
+.hebergement1
+{
+    width: 79vw
+}
+
+.activite
+{
+    flex-direction: column;
+}
+#activités h2
+{
+    margin: 2rem 0 2rem 1.6rem;
+}
+.activité_b, .activité_d
+{
+    flex-wrap: wrap;
+}
+
+.activité1, .activité2, .activité3, .activité4, .activité5,.activité6
+{
+    width: 79vw;
+    height: 50vw; 
+}
+
+.activité1 img, .activité2 img, .activité3 img, .activité4 img, .activité5 img,.activité6 img
+{
+    height: 40vw;
+}
+
+.activité_a, .activité_b, .activité_c, .activité_d
+{
+    width: 100%;
+    justify-content: center;
+}
+
+.activite figcaption
+{
+    font-size: 3vw;
+}
+
+footer
+{
+    flex-wrap: wrap;
+}
+
+.nos_hebergements, .a_propos, .assistance
+{
+    width: 100%;
+    margin-left: 13vw;
+}
+
+.nos_hebergements, .a_propos
+{
+    margin-bottom:2.5rem;
+}
+

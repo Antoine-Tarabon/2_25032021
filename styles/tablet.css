@@ -1,0 +1,51 @@
+#bloc_page
+{
+    margin: 0 2rem;
+}
+
+.filtres
+{
+    flex-wrap: wrap;
+}
+.filtres h3
+{
+    margin-bottom: 1rem;
+    margin-left: 1.6rem;
+    flex-basis: 25rem;
+}
+
+#activités
+{
+    margin: 0 1.6rem;
+}
+.activite
+{
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.activité_b, .activité_d
+{
+    flex-direction: row;
+    width: 66%;
+}
+.activité_a, .activité_c
+{
+    width: 33%;
+}
+
+.activité1, .activité2, .activité3, .activité4, .activité5,.activité6
+{
+    width: 28vw;
+    height: 24vw;
+    margin-bottom: 25px;
+}
+
+.activité1 img, .activité2 img, .activité3 img, .activité4 img, .activité5 img,.activité6 img
+{
+    height: 18vw;
+}
+.activite figcaption
+{
+    font-size: 1.8vw;
+}
