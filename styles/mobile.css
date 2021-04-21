@@ -2,30 +2,67 @@
 {
     margin: 0 0rem;
 }
-.navigation ul li:nth-child(1)
+header
+{
+    padding: 0 1.2rem;
+}
+#logo
+{
+    text-align: left;
+    flex-grow: 1;
+}
+.navigation
 {
     order: 2;
+    flex-basis: 1000px;
 }
-.navigation ul li:nth-child(2)
-{
-    order: 3;
-}
-.navigation ul li:nth-child(3)
+.inscription
 {
     order: 1;
+    text-align: right;
+    padding: 50px 0;
 }
 
+.navigation ul
+{
+    flex-grow: 1;
+}
+.navigation li
+{
+    flex-grow: 1;
+    padding: 20px 30px 10px;
+    text-align: center;
+    margin: 0 -1.2rem 2rem;
+}
+.navigation li:hover{
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+}
+.navigation li{
+    border-bottom: 2px solid #f2f2f2;
+    border-top: none;
+}
 #search
 {
     margin: 0 1.6rem 0 1.6rem;
 }
-
+.search_input
+{
+    width: 12rem;
+}
 .info
 {
     margin: 2rem 1.3rem;
 
 }
-
+.Rechercher-texte
+ {
+     display: none;
+ }
+.Rechercher-icone
+ {
+     display: block;
+ }
 #hébergements
 {
     flex-direction: column-reverse;

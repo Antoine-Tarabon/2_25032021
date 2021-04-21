@@ -26,36 +26,30 @@ header
     display: flex;
     justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 #logo
 {
-    display: flex;
-    height: 70px;
-    width: 70px;
+    flex-grow: 1;
 }
-
+#logo img
+{
+    width: 140px;
+}
+.navigation
+{
+    display: flex;
+}
 .navigation ul 
 {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 .navigation li
 {
     padding: 50px;
     border: 2px solid transparent;
-}
-.navigation ul li:nth-child(1)
-{
-    order: 1;
-}
-.navigation ul li:nth-child(2)
-{
-    order: 2;
-}
-.navigation ul li:nth-child(3)
-{
-    order: 3;
 }
 
 .navigation li:hover{
@@ -73,8 +67,13 @@ header
 {
     color: #0065FC;
 }
+.inscription
+{
+    padding: 50px;
+}
 .inscription a
 {
+    text-decoration: none;
     color: #0065FC;
 }
 
@@ -133,6 +132,14 @@ input::placeholder
   font-size: large;
  }
 
+.Rechercher-texte
+ {
+     display: block;
+ }
+.Rechercher-icone
+ {
+     display: none;
+ }
  .icone_marker:focus, .search_input:focus, .rechercher:focus
  {
      outline: none;
@@ -149,6 +156,7 @@ input::placeholder
 
 .element
 {
+    margin-top: 0.5rem;
     margin-left: 1.5rem;
     padding-right: 1rem;
     border: 2px solid #f2f2f2;
@@ -330,7 +338,7 @@ aside h2
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2.5rem 4rem 1rem 4rem; 
+    margin: 2.5rem 2rem 1rem 2rem;
 }
 .chartline
 {

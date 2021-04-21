@@ -13,7 +13,29 @@
     margin-left: 1.6rem;
     flex-basis: 25rem;
 }
+#hébergements
+{
+    flex-direction: column-reverse;
+}
 
+aside
+{
+    width: 100%;
+    
+}
+
+.hebergement
+{
+    width: 100%;
+    
+    background-color: transparent;
+}
+.populaire1 {
+    width: 74vw;
+}
+.hebergement1 {
+    width: 21rem;
+}
 #activités
 {
     margin: 0 1.6rem;

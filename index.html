@@ -7,7 +7,7 @@
         />
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <link rel="stylesheet" href="./styles/tablet.css" media="screen and (max-width: 1000px)"/>
+        <link rel="stylesheet" href="./styles/tablet.css" media="screen and (max-width: 1024px)"/>
         <link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width: 768px)"/>
         <link rel="stylesheet" href="./fonts/Raleway-Regular.ttf" />
         <link href="styles/font-awesome.css" rel="stylesheet" />
@@ -21,16 +21,16 @@
                         src="images/logo/Reservia@3x.png"
                         alt="logo reservia"
                     />
-                </div>
+                </div>             
                 <nav class="navigation">
                     <ul>
                         <li><a href="#hébergements">Hébergements</a></li>
-                        <li><a href="#activités">Activités</a></li>
-                        <li class="inscription">
-                            <a href="#"><strong>S'inscrire</strong></a>
-                        </li>
-                    </ul>
+                        <li><a href="#activités">Activités</a></li>                      
+                    </ul>                   
                 </nav>
+                <div class="inscription">
+                    <a href="#"><strong>S'inscrire</strong></a>
+                </div>
             </header>
             <section id="search">
                 <h1>Trouver votre hébergement pour des vacances de rêve</h1>
@@ -45,7 +45,10 @@
                         placeholder="Tapez votre destination"
                         value="Marseille, France"
                     />
-                    <button class="rechercher">Rechercher</button>
+                    <button class="rechercher">
+                        <span class="Rechercher-texte">Rechercher</span>
+                        <span class="Rechercher-icone"><i class="fas fa-search"></i></span>
+                    </button>
                 </div>
             </section>
             <main>
@@ -229,7 +232,7 @@
                     <aside>
                         <div class="titre_populaires">
                         <h2>
-                            Les plus populaires</i>
+                            Les plus populaires
                         </h2>
                         <div class="chartline">
                         <i class="fas fa-chart-line"></i>
